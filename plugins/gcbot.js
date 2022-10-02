@@ -32,11 +32,11 @@ let fetch = require('node-fetch')
          }}) 
      } catch (e) { 
          let tulisan = ` 
- *Join Juga Group Official Cute Bot!* 
+ *Join Juga Group Official Nekobot MD!* 
 Sekedar meramaikan, atau juga jika ada informasi mengenai bot. 
   
  *Group 1* 
-https://chat.whatsapp.com/Kyz397uqvJZ5AvX7I4BSID
+https://chat.whatsapp.com/GOCjnBR48bxDzGENUzVkz7
  
  `.trim() 
      await conn.sendButtonDoc(m.chat, tulisan.trim(), 'Harap patuhi rules dan peraturan pada masing masing group ya! Terimakasih.', 'Rules', '.rules', m, {
@@ -45,8 +45,8 @@ https://chat.whatsapp.com/Kyz397uqvJZ5AvX7I4BSID
         externalAdReply: {
         	sourceUrl: 'https://vt.tiktok.com/ZSRRmS8vh/',
             title: 'Gruop Official',
-            body: '© Cute IQ-MD By Ziv San',
-          thumbnail: await (await fetch('https://telegra.ph/file/f05029f17de62fb420459.jpg')).buffer()
+            body: '© Nekobot MD By Iyann',
+          thumbnail: await (await fetch('https://telegra.ph/file/4afc10ce016e4a7689ed3.jpg')).buffer()
         }
      }
     })
