@@ -15,9 +15,9 @@ handler.all = async function (m) {
     if (new Date - user.pc < 86400000) return // setiap 24 jam sekali
         await conn.send3ButtonLoc(m.chat, 'https://telegra.ph/file/606ecba4019ea293aa26f.jpg', ` ${ucapan()}, @${m.sender.split`@`[0]}
  ${user.banned ? 'kamu dibanned' : `
-Saya Adalah Cute, Bot What'sapp Yang Bisa Anda Gunakan Untuk Membuat Sticker, Mendownload Sesuatu, Bermain Game, Dll.
+Halo Om, Nekobot MD Adalah Bot Whatsapp Yang Dibuat Oleh Seorang Pedo Bernama Iyann.
 
-Tolong Jangan Spam, Telepon, Vc, Kirim Virtex.`} 
+Kmu Bisa Pke Nekobot Asalkan Jan Spam Ya Anjg:v`} 
  `.trim(), hao, user.banned ? 'Pemilik Bot' : 'Menu', user.banned ? '!owner' : '.menu', 'Panduan penggunaan', '.tutorbot', 'Verify', '.daftar ${conn.getName(m.sender)}.16', m) 
      user.pc = new Date * 1 
  } 
