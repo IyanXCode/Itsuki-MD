@@ -1,11 +1,11 @@
 let fs = require('fs')
 global.owner = JSON.parse(fs.readFileSync('./src/owner.json')) // Put your number to /src/owner.json
 global.mods = JSON.parse(fs.readFileSync('./src/moderator.json')) // Want some help?
-global.thumbt = global.img
+global.thumbt = 'https://telegra.ph/file/4afc10ce016e4a7689ed3.jpg'
 global.fsx = 999999999999
 global.kontak = [
-['16199961931', 'Ziv San', true], 
-['6282179137771', 'HAORI IQ-MD', true] 
+['6285742344873', 'IyannZx', true], 
+['6285742966427', 'Nekobot MD', true] 
 ]
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -34,14 +34,14 @@ global.APIKeys = { // APIKey Here
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
 
-global.linkyt = 'https://youtu.be/60yZO4UQKdI'
-global.WM = '𝑴𝒚𝑩𝒐𝒕-𝑴𝒖𝒍𝒕𝒊 𝑫𝒆𝒗𝒊𝒄𝒆 𝑩𝒚 𝚃𝚑𝚎.𝚂𝚊𝚍.𝙱𝚘𝚢𝟶𝟷'
-global.linkgc = 'https://chat.whatsapp.com/Kyz397uqvJZ5AvX7I4BSID'
+global.linkyt = 'https://youtube.com/channel/UCkadpdLCQveqayi7oeUFNxQ'
+global.WM = '𝙉𝙚𝙠𝙤𝙗𝙤𝙩 𝘽𝙮 𝙄𝙮𝙖𝙣𝙣𝙕𝙭'
+global.linkgc = 'https://chat.whatsapp.com/GOCjnBR48bxDzGENUzVkz7'
 global.linkig = 'https://www.instagram.com/the.sad.boy01'
 global.deslink = ''
-global.logo = 'https://telegra.ph/file/1665521d176fbf172d735.jpg'
-global.titlink = 'Folllow me on Instagram'
-global.bodlink = '@the.sad.boy01'
+global.logo = 'https://telegra.ph/file/4afc10ce016e4a7689ed3.jpg'
+global.titlink = 'Folllow me on Github'
+global.bodlink = 'IyannAja'
 
 global.wait = '_*𝐬𝐞𝐝𝐚𝐧𝐠 𝐝𝐢 𝐩𝐫𝐨𝐬𝐞𝐬 ...*_'
 global.eror = '_*мααƒ ѕєяνєя тι∂αк ѕтαвιℓ..*_'
